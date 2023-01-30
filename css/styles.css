@@ -568,13 +568,13 @@ progress {
 .list-inline {
   padding-left: 0;
   list-style: none;
-  max-width: 1000px;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .list-inline-item {
   display: inline-block;
   align-items:center;
-  min-width: 200px;
 }
 
 .list-inline-item:not(:last-child) {
