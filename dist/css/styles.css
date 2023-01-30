@@ -572,11 +572,27 @@ progress {
 
 .list-inline-item {
   display: inline-block;
-  align-items:center;
 }
 
 .list-inline-item:not(:last-child) {
-  margin-right: 0.5rem;
+  margin-right: .5rem;
+}
+
+.devicons {
+  font-size: 1.5em;
+  vertical-align: sub;
+}
+
+.devicons {
+  font-family: devicons;
+  speak: none;
+  font-style: normal;
+  font-weight: 400;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 .tags {
