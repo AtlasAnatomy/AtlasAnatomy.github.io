@@ -589,9 +589,12 @@ progress {
 
 @media only screen and (max-width: 767px) {
   .resume-content img {
-    max-width: 100%;
+    width: 100%;
+    height: auto;
+    max-width: none;
   }
 }
+
 
 .tags {
   font: 16px/1.5 'PT Sans', serif;
