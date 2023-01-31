@@ -587,6 +587,12 @@ progress {
   transition: transform 0.5s ease 0s;
 }
 
+@media only screen and (max-width: 767px) {
+  .resume-content img {
+    max-width: 100%;
+  }
+}
+
 .tags {
   font: 16px/1.5 'PT Sans', serif;
   list-style: none;
