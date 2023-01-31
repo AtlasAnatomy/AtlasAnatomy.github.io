@@ -576,9 +576,15 @@ progress {
   align-items:center;
 }
 
-
 .list-inline-item:not(:last-child) {
   margin-right: 0.5rem;
+}
+
+.li-hover:hover {  
+  transform: rotate(180deg);
+}
+.li-hover {
+  transition: transform 0.5s ease 0s;
 }
 
 .tags {
