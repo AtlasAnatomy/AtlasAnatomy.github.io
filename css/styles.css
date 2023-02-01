@@ -604,8 +604,9 @@ progress {
 
 @media only screen and (min-width: 767px) {
   .journal {
-    margin-bottom: -2.5em; 
+    margin-bottom: -2em; 
     margin-top: 2em;
+    line-height: 0em;
   }
 }
 
