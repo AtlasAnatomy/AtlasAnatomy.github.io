@@ -602,6 +602,13 @@ progress {
   }
 }
 
+@media only screen and (min-width: 767px) {
+  .journal {
+    margin-bottom: -2.5em; 
+    margin-top: 2em;
+  }
+}
+
 
 .tags {
   font: 16px/1.5 'PT Sans', serif;
