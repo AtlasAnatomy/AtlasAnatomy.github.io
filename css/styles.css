@@ -62,7 +62,7 @@
   --bs-body-line-height: 1.5;
   --bs-body-color: #212529;
   --bs-body-bg: #fff;
-  color-scheme: only light;
+  color-scheme: light only;
 }
 
 *,
