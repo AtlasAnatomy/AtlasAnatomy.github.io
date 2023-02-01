@@ -587,11 +587,18 @@ progress {
   transition: transform 0.5s ease 0s;
 }
 
-@media only screen and (max-width: 767px) {
-  .resume-content img {
-    width: 100%;
-    height: auto;
-    max-width: none;
+@media only screen and (min-width: 767px) {
+  .img-mob {
+    max-height:150px;
+    max-width:150px;
+  }
+}
+
+@media only screen and (min-width: 767px) {
+  .img-mob-mar {
+    max-height:150px;
+    max-width:150px;
+    margin-right: 0.8em;
   }
 }
 
