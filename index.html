@@ -7,6 +7,17 @@
     <title>Tommaso Bosi | R&D Portfolio</title>
     <script type="module" crossorigin src="/assets/index-CQT__2NG.js"></script>
     <link rel="stylesheet" crossorigin href="/assets/index-BOhl1KGS.css">
+    <script>
+      // Function to detect if the user is on a mobile device
+      function isMobile() {
+        return /Mobi|Android/i.test(navigator.userAgent);
+      }
+
+      // Redirect to the mobile site if the user is on a mobile device
+      if (isMobile()) {
+        window.location.href = "https://atlasanatomy.github.io/mobile";
+      }
+    </script>
   </head>
   <body>
     <div id="root"></div>
